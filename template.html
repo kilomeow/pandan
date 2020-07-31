@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+◊(local-require racket/string)
+<title> ◊(string-trim (symbol->string here) ".html") :: pandan</title>
+</head>
+
+<body>
+<div id="page">
+◊(->html doc)
+</div>
+
+</body>
+
+</html>

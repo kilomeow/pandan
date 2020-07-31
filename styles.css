@@ -1,0 +1,52 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14pt;
+    color: #293132;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: solid 0.15rem #4F5165;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+::selection {
+    background-color: #b56576;
+    color: white;
+}
+
+#page {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+blockquote {
+    padding-left: 1rem;
+    line-height: 100%;
+    border-left: solid 0.25em #e56b6f;
+}
+
+code {
+    font-family: inherit;
+    color: #355070;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 0.07em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.figure p {
+    font-size: 85%;
+    font-style: italic;
+    color: #6d597a;
+    margin-top: 0.2rem;
+    text-align: right;
+}
