@@ -39,7 +39,12 @@ code {
     text-decoration-thickness: 0.07em;
 }
 
+.figure {
+    text-align: center;
+}
+
 img {
+    display: inline-block;
     max-width: 100%;
 }
 
