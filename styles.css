@@ -14,6 +14,10 @@ h3 {
     font-size: 1.2rem;
 }
 
+a {
+    color: #4F5165;
+}
+
 ::selection {
     background-color: #b56576;
     color: white;
@@ -34,9 +38,31 @@ blockquote {
 code {
     font-family: inherit;
     color: #355070;
+    word-wrap: normal;
+    margin: 0 0.25rem;
+    letter-spacing: 0.2rem;
     font-style: italic;
-    text-decoration: underline;
     text-decoration-thickness: 0.07em;
+}
+
+pre.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.data {
+    flex: 1;
+    border: double 0.4rem #355070;
+    padding: 1em;
+    display: inline-block;
+}
+
+.data code {
+    font-size: 75%;
+    font-style: normal;
+    margin-left: 0;
 }
 
 .figure {
@@ -46,6 +72,8 @@ code {
 img {
     display: inline-block;
     max-width: 100%;
+    margin-top: 0.5rem;
+    border: solid 0.25rem transparent;
 }
 
 .figure p {

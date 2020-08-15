@@ -1,3 +1,4 @@
 *.csv
 compiled/
 .ipynb*
+__pycache__
